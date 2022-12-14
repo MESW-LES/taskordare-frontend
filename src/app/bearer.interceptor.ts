@@ -12,7 +12,7 @@ import { AdminService } from './services/admin.service';
 @Injectable()
 export class BearerInterceptor implements HttpInterceptor {
 
-  corsOn:boolean = true;
+  corsOn:boolean = false;
 
   constructor(
     public adminService: AdminService,
